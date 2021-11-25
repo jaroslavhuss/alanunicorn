@@ -1,0 +1,87 @@
+{
+  "{asid}": {
+    "profileList": ["AsidAuthorities", "AsidExecutives", "AsidLicenseOwner", "Public", "AwidLicenseOwner"],
+    "useCaseMap": {
+      "tutor/create": {
+        "sysStateList": ["active"],
+        "profileList": ["Public", "AwidLicenseOwner"]
+      },
+      "student/create": {
+        "sysStateList": ["active"],
+        "profileList": ["Public", "AwidLicenseOwner"]
+      },
+      "student/get": {
+        "sysStateList": ["active"],
+        "profileList": ["Public", "AwidLicenseOwner"]
+      },
+      "topic/create": {
+        "sysStateList": ["active"],
+        "profileList": ["AwidLicenseOwner", "Public"]
+      },
+      "subject/create": {
+        "sysStateList": ["active"],
+        "profileList": ["AwidLicenseOwner", "Public"]
+      },
+      "subject/delete": {
+        "sysStateList": ["active"],
+        "profileList": ["AwidLicenseOwner", "Public"]
+      },
+      "subject/read": {
+        "sysStateList": ["active"],
+        "profileList": ["AwidLicenseOwner", "Public"]
+      },
+      "subject/update": {
+        "sysStateList": ["active"],
+        "profileList": ["AwidLicenseOwner", "Public"]
+      }
+    }
+  },
+  "*": {
+    "profileList": ["Authorities", "Executives", "AwidLicenseOwner", "Public"],
+    "useCaseMap": {
+      "sys/uuAppWorkspace/init": {
+        "sysStateList": ["created"],
+        "profileList": ["AwidLicenseOwner"]
+      },
+      "defaultUve": {
+        "profileList": ["Public"]
+      },
+      "sys/uuAppWorkspace/initUve": {
+        "sysStateList": ["created"],
+        "profileList": ["Public", "AwidLicenseOwner"]
+      },
+      "tutor/create": {
+        "sysStateList": ["active"],
+        "profileList": ["Public", "AwidLicenseOwner"]
+      },
+      "student/create": {
+        "sysStateList": ["active"],
+        "profileList": ["Public", "AwidLicenseOwner"]
+      },
+      "topic/create": {
+        "sysStateList": ["active"],
+        "profileList": ["AwidLicenseOwner", "Public"]
+      },
+      "subject/create": {
+        "sysStateList": ["active"],
+        "profileList": ["AwidLicenseOwner", "Public"]
+      },
+      "subject/delete": {
+        "sysStateList": ["active"],
+        "profileList": ["AwidLicenseOwner", "Public"]
+      },
+      "subject/read": {
+        "sysStateList": ["active"],
+        "profileList": ["AwidLicenseOwner", "Public"]
+      },
+      "subject/update": {
+        "sysStateList": ["active"],
+        "profileList": ["AwidLicenseOwner", "Public"]
+      },
+      "student/get": {
+        "sysStateList": ["active"],
+        "profileList": ["AwidLicenseOwner", "Public"]
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "port": 8080,
+  "uuSubAppDataStoreMap": {
+    "primary": "mongodb+srv://alfa_samec:12d3max@uualfasubjectman.dk65v.mongodb.net/uuApp"
+  },
+  "asid_license_owner_list": ["3822-5689-1", "8212-7820-1", "9931-120-1", "5360-547-1"],
+  "asid": "11111111111111111111111111111111",
+  "log_level": "INFO"
+}
